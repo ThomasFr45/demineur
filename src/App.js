@@ -125,7 +125,7 @@ function App() {
             alert("You won !")
           }
             setCount(count + 1);
-          draft[cell.row][cell.col].tips = howMany(dz.row, cell.col);
+          draft[cell.row][cell.col].tips = howMany(cell.row, cell.col);
         }
         draft[cell.row][cell.col].revealed = true;
       });
